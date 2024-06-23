@@ -1,0 +1,13 @@
+name: none-shall-pass
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  none-shall-pass:
+    runs-on: thevickypedia-lite
+    steps:
+      - uses: thevickypedia/none-shall-pass@v5
